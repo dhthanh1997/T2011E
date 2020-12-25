@@ -1,0 +1,33 @@
+body
+{
+    /*background-color: ; */
+    /*background-image: url("https://i.redd.it/48pz1hd6ktp51.png");*/
+    /*background-repeat: no-repeat; !* lặp ảnh background *!*/
+    /*background-size: auto;*/
+    text-align: center;
+}
+h1
+{
+    color: #23f14599; /* cách viết khác: rgba(150,50,255,0.1) */
+    font-size: 30px;  /* cỡ chữ */
+    line-height: 1.5; /* khoảng cách các dòng */
+    text-align: center; /* căn lề */
+}
+p
+{
+    color: blueviolet;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    width: 1000px; /* độ rộng lề */
+    text-transform: none; /* biến đổi chữ */
+    text-decoration: none; /* trang trí chữ */
+    font-family: "Times New Roman"; /* Loại chữ */
+    font-weight: 400; /* Độ đậm nhạt của chữ (thin: 100, light: 300, normal: 400,
+    medium: 500, semi-bold: 600, bold: 700, extra-bold: 800, black: 900) */
+    background-color: white; /* màu phông */
+}
+img
+{
+    max-width: 50%; /* co độ rộng ảnh */
+}
