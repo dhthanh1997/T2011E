@@ -5,6 +5,7 @@ body
     /*background-repeat: no-repeat; !* lặp ảnh background *!*/
     /*background-size: auto;*/
     text-align: center;
+
 }
 h1
 {
@@ -12,6 +13,11 @@ h1
     font-size: 30px;  /* cỡ chữ */
     line-height: 1.5; /* khoảng cách các dòng */
     text-align: center; /* căn lề */
+    border: 10px red; /* viền */
+    /*border-bottom: 10px greenyellow;*/
+    /*border-top: 10px greenyellow ;*/
+    /*border-left: 10px greenyellow;*/
+    /*border-right: 10px greenyellow;*/
 }
 p
 {
