@@ -1,0 +1,59 @@
+body{
+    background-color: #eeeeee;
+}
+.img{
+    background-image: url("http://test.lunartheme.com/jakiro/wp-content/uploads/2015/10/rev_slider_bg_11.jpg?id=10825");
+    background-size: 100% 100%;
+    float: left;
+    width: 1130px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 14%;
+    position: relative;
+}
+.top{
+    font-family: "Quicksand", sans-serif;
+    float: left;
+    width: 500px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+.top h1{
+    font-size: 48px;
+    z-index: 7;
+}
+.top .Shop-now{
+    text-transform: uppercase ;
+    text-align: center;
+    border: 1px solid white;
+    float: none;
+    width: 150px;
+    margin-left: 5%;
+}
+.Shop-now :hover{
+    background-color: white;
+    color: black;
+}
+.welcome{
+    background-color: white;
+    float: left;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    margin-left: 14%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1%;
+    text-align: center;
+}
+.example{
+    border: 1px solid white;
+    margin-left: 2%;
+}
+span{
+    text-decoration: line-through;
+}
