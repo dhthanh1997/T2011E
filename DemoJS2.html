@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DemoJS2</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var ob = {
+            name: "Hoang",
+            age: "18",
+            address: "8 Ton That Thuyet, Cau Giay, Ha Noi",
+            danhsachngyeu:[],
+            run: function (){
+                console.log(this.name+" dang chay ...");
+            }
+        }; // { --> bat dau 1 doi tuong , [ --> bat dau 1 mang
+        ob.run();
+        console.log("Ten: "+ob.name);
+        ob.name = "Tung";
+        ob.run();
+        console.log("Ten: "+ob.name);
+        ob.danhsachngyeu.push("Loan");
+        ob.danhsachngyeu.push("Linh");
+        console.log(ob.danhsachngyeu);
+        var ob2 = {
+            name: "Lan",
+            age: "17",
+            address: "18 Ton That Thuyet, Cau Giay, Ha Noi",
+            danhsachngyeu:[],
+            run: function (){
+                console.log(this.name+" dang chay ...");
+            }
+        };
+        ob2.run();
+        ob2.name = "Hung";
+    </script>
+</body>
+</html>

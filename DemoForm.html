@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Form</title>
+    <link rel="stylesheet" href="CSS/DemoForm.css">
+</head>
+<body>
+    <form method="post" action="#">
+        <input name="firstname" type="text" placeholder="điền họ"/>
+        <input name="lastname" type="text" placeholder="điền tên"/>
+        <input name="email" type="email" placeholder="điền email"/>
+        <input name="password" type="password" placeholder="điền mk"/>
+        <input name="birthday" type="date"/>
+        <input name="birthday" type="time"/>
+        <input name="birthday" type="week"/>
+        <input name="birthday" type="month"/>
+        <input name="color" type="color"/>
+        <br>
+        <input name="gender" type="radio" placeholder="Giới tính" checked value="Nam"/>Nam
+        <input name="gender" type="radio" placeholder="Giới tính" value="Nữ"/>Nữ
+        <input name="gender" type="radio" placeholder="Giới tính" value="Khác"/>Khác
+        <br>
+        <input name="confirm" type="checkbox"/>Yeet
+        <input name="confirm" checked type="checkbox"/>Yeeeeeet
+        <label>
+            <input name="confirm" checked type="checkbox"/>arknights
+        </label>
+        <select name="city">
+            <option>Vui lòng chọn TP</option>
+            <option selected value="HN">HN</option> /* selected ưu tiên thẻ đấy ở đầu */
+            <option value="HCM">HCM</option>
+            <option value="HP">HP</option>
+        </select>
+        <textarea name="content" placeholder="Mô tả bản thân" rows="5" cols="10"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+
+    </form>
+</body>
+</html>

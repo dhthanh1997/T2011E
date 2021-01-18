@@ -1,0 +1,25 @@
+div
+{
+    float: left; /* dồn ảnh (chữ) */
+    width: calc(25% - 82px);
+    height: 450px;
+    border: 1px solid #222222; /* khối */
+    padding: 15px 20px 10px; /* chỉnh kích thước của khối */
+    margin: 30px; /* lề */
+    box-sizing: border-box; /* chỉnh các thứ trong khối */
+    box-shadow: 0 0 10px black; /* bóng của khối */
+    border-radius: 50px; /* cắt cạnh của khối */
+    display: inline;
+    opacity: 0.5; /* điểm ảnh */
+    transition: background-color 3s; /* độ trễ */
+}
+div:hover /* thay đổi trạng thái */
+{
+    background-color: green !important/* chế độ ưu tiên cao nhất (hạn chế dùng)*/;
+    opacity: 1;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}

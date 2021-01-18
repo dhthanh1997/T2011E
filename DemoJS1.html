@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    <script type="text/javascript" src="JS/DemoJS1.js"></script>
+    <script type="text/javascript">
+        var x;
+        x=10;
+        x++;
+        x+=10;
+        console.log(x);
+        x = "hello world!";
+        console.log(x);
+        var y=20;
+        var z=15;
+        console.log(y+z);
+        console.log(x+y);
+        console.log(y+x);
+        console.log(x+y+z);
+        var t=10;
+        console.log("xin chao cac ban toi nam nay "+t+" tuoi");
+        if(t>10)
+        {
+            console.log("du tuoi quy dinh");
+        }
+        else
+        {
+            console.log("duoi tuoi quy dinh")
+        }
+        switch (t)
+        {
+            case 10:console.log("du tuoi quy dinh");break;
+            default:console.log("duoi too quy dinh");
+        }
+        for(var i=0;i<15;i++)
+        {
+            console.log(i);
+        }
+        var arr;
+        arr = [];
+        arr[0]=1;
+        arr[1]=15;
+        arr[2]="xin chao";
+        arr[3]=[];
+        arr[3][0]=2;
+        arr[3][1]="hello";
+        arr[3][2]=[];
+        var ar2 = [];
+        ar2.push(19);
+        ar2.push(5);
+        ar2.push("xin chao");
+        var ar3 = [];
+        for (var i=0;i<10;i++)
+        {
+            ar3.push(i+15);
+        }
+        ar3.push(77);
+        inketqua(6,9); // co the de tren hoac duoi
+        var k = tinhtong(10,12);
+        console.log("tong: "+k+"");
+        function tinhtong(a,b)
+        {
+            var c = a+b;
+            return c;
+        }
+        function inketqua(a,b)
+        {
+            console.log(a+b);
+        }
+        // alert("Cam tre em duoi 18");
+        // confirm("ban chac chan muon vao?"); // tra ve true false
+        // prompt("Nhap ten ng dung"); // tra ve 1 chuoi
+        // setTimeout(function ()
+        // {
+        //     alert("xin chao");
+        // },3000) // 3s sau xuat hien
+        // setInterval(function ()
+        // {
+        //     alert("xin chao");
+        // },3000)
+        // var c=0;
+        // var s1 = setInterval(function ()
+        // {
+        //     c++;
+        //     alert("Xin chao");
+        //     if(c>3)
+        //     {
+        //         clearInterval(s1);
+        //     }
+        // },2000)
+        setTimeout(function ()
+        {
+            alert("SS1");
+        },2000);
+        alert("SS2");
+        // vi du ve bat dong bo
+        var kq = 10;
+        // cong viec 1
+        setTimeout(function () {
+            // alert("SS1");
+            kq+=10; // kq = 20;
+        },2000);
+        // cong viec 2
+        alert(kq); // kq = 10;
+    </script>
+</body>
+</html>

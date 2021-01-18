@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo DOM</title>
+    <link rel="stylesheet" href="CSS/DemoDOM.css">
+</head>
+<body>
+    <h1 id="heading">Xin chao</h1>
+    <p id="dsngyeu">Linh</p>
+    <span id="minute">10</span>:<span id="second">00</span>
+    <script type="text/javascript">
+        var h = document.getElementById("heading");
+        // h.innerText = "Xin chao cac ban"; //tac dong len id "heading"
+        // setTimeout(function (){
+        //     if(h.innerText = "Xin chao")
+        //         h.innerText = "Xin chao cac ban"
+        //     else
+        //         h.innerText = "Yeet"
+        // },2000)
+        // setTimeout(function (){
+        //     h.innerHTML = "<p>Xin chao cac ban</p>";
+        // },2000);
+        // var ol = document.getElementById("dsngyeu")
+        // setInterval(function (){
+        //     ol.innerHTML = "<li>Linh</li>"
+        // },2000)
+        var min = document.getElementById("minute");
+        var sec = document.getElementById("second");
+        var m = 10;
+        var s = 0;
+        var timer = setInterval(function (){
+            min.innerText = m>9?m:'0'+m;
+            sec.innerText = s>10?s:'0'+s;
+            s--;
+            if (s<0)
+            {
+                s=59;
+                m--;
+            }
+            if(m<0)
+            {
+                clearInterval(timer);
+                alert("Happy New Year");
+            }
+        },10);
+    </script>
+</body>
+</html>

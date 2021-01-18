@@ -1,59 +1,225 @@
-body{
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+/* begin-menu */
+.section.header{
+    background-color: #343a40;
+}
+.navbar-brand
+{
+    padding: 0 5%;
+    font-weight: 500;
+    font-size: 30px;
+}
+a.nav-link {
+    display: block;
+    margin: 0 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* end-menu */
+.col{
     background-color: #eeeeee;
 }
-.img{
-    background-image: url("http://test.lunartheme.com/jakiro/wp-content/uploads/2015/10/rev_slider_bg_11.jpg?id=10825");
-    background-size: 100% 100%;
-    float: left;
-    width: 1130px;
-    height: 500px;
-    border: 1px solid black;
-    margin-left: 14%;
-    position: relative;
-}
-.top{
-    font-family: "Quicksand", sans-serif;
-    float: left;
-    width: 500px;
-    height: 500px;
+.col-md-12.background1{
     color: white;
+    position: relative;
+    min-height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("http://landing.engocreative.com/html/jakiro/demo/assets/images/slides/slide_simple.jpg");
+}
+.background1 .khoi1{
     position: absolute;
-    top: 130px;
-    left: 350px;
+    top: 28%;
+    left: 10%;
 }
-.top h1{
-    font-size: 48px;
-    z-index: 7;
-}
-.top .Shop-now{
-    text-transform: uppercase ;
-    text-align: center;
+.khoi1 a{
     border: 1px solid white;
-    float: none;
-    width: 150px;
-    margin-left: 5%;
+    display: inline-block;
+    padding: 3% 8%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s;
+    font-size: 18px;
 }
-.Shop-now :hover{
+.khoi1 a:hover{
+    text-decoration: none;
     background-color: white;
     color: black;
 }
-.welcome{
-    background-color: white;
-    float: left;
-    text-align: center;
-    border: 1px solid #eeeeee;
-    margin-left: 14%;
+@media only screen and (max-width: 992px)
+{
+    .khoi1 h5
+    {
+        font-size: 16px;
+    }
+    .khoi1 h1
+    {
+        font-size: 16px;
+    }
 }
-.nav a{
+.khoi2 {
+    text-align: center;
+}
+.khoi2 p{
+    font-weight: 700;
+    font-size: 18px;
+}
+.khoi2 span{
+    font-weight: 400;
+    font-size: 90%;
+}
+.khoi3{
+    text-align: center;
+    margin-left: 28%;
+}
+.tab li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+.tab a{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 69px;
+}
+.tab a:hover{
     text-decoration: none;
     color: black;
-    margin-left: 1%;
+}
+.khoi4{
+    float: left;
+    display: block;
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+    font-weight: normal;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.khoi4 .img img{
+    width: 270px;
+    height: 344px;
+}
+.khoi4 .description a{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 3% 8%;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: 0.4s;
+    font-size: 18px;
+}
+.khoi4 .description a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.khoi4 .img img:hover{
+
+}
+.col-md-4.service{
+    width: 100%;
+    font-size: 13px;
+    line-height: 24px;
+}
+.col-md-4.service span{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+/* begin footer */
+.footer-container
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+}
+._1khoi
+{
+    padding: 5% 25%;
     text-align: center;
 }
-.example{
-    border: 1px solid white;
-    margin-left: 2%;
+._1khoi h1
+{
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #ffffffe1;
 }
-span{
-    text-decoration: line-through;
+._1khoi ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+._1khoi ul li
+{
+    margin: 3% 0;
+    padding: 0% 3%;
+    border-right: 1px solid #ffffffbf;
+}
+._1khoi ul li:nth-child(7)
+{
+    border-right: none
+}
+._1khoi ul li a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffffcc;
+    transition: 0.4s;
+}
+._1khoi ul li a:hover
+{
+    color: white;
+}
+._1khoi .icon a i
+{
+    padding-right: 2%;
+    color: #ffffffe1;
+    transition: 0.4s;
+}
+._1khoi .icon a i:hover
+{
+    color: gray;
+}
+.block-bottom
+{
+    background-color: #252525;
+    text-align: center;
+}
+.block-bottom p
+{
+    line-height: 60px;
+    color: #ffffffe1;
+    font-size: 14px;
+}
+.block-bottom p span
+{
+    font-weight: bold;
+    color: white;
+}
+/* end footer */
+
+@media only screen and (max-width: 992px)
+{
+    .menu-left
+    {
+        display: none;
+    }
+    .navbar-brand
+    {
+        padding: 0;
+    }
 }
