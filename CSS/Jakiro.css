@@ -22,26 +22,20 @@ a.nav-link {
     font-weight: 500;
 }
 /* end-menu */
-.col{
-    background-color: #eeeeee;
-}
-.col-md-12.background1{
+.background1{
+    border: 1px solid black;
     color: white;
-    position: relative;
-    min-height: 70vh;
     width: 100%;
-    background-size: cover;
-    background-image: url("http://landing.engocreative.com/html/jakiro/demo/assets/images/slides/slide_simple.jpg");
+    background-size: 100% 105%;
+    background-image: url("http://test.lunartheme.com/jakiro/wp-content/uploads/2015/05/header_bg_shop.jpg");
 }
 .background1 .khoi1{
-    position: absolute;
-    top: 28%;
-    left: 10%;
+    padding: 10% 13%;
 }
 .khoi1 a{
     border: 1px solid white;
     display: inline-block;
-    padding: 3% 8%;
+    padding: 2% 4%;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -53,18 +47,8 @@ a.nav-link {
     background-color: white;
     color: black;
 }
-@media only screen and (max-width: 992px)
-{
-    .khoi1 h5
-    {
-        font-size: 16px;
-    }
-    .khoi1 h1
-    {
-        font-size: 16px;
-    }
-}
 .khoi2 {
+    padding-top: 2%;
     text-align: center;
 }
 .khoi2 p{
@@ -77,23 +61,14 @@ a.nav-link {
 }
 .khoi3{
     text-align: center;
-    margin-left: 28%;
+    margin-left: 30%;
 }
-.tab li{
-    float: left;
-    list-style: none;
-    margin-right: 20px;
-}
-.tab a{
-    font-size: 20px;
+.tabbar .nav-item a{
     color: black;
-    font-weight: 600;
-    text-decoration: none;
-    line-height: 69px;
 }
-.tab a:hover{
-    text-decoration: none;
-    color: black;
+.tabbar .nav-item a:hover{
+    background-color: black;
+    color: white;
 }
 .khoi4{
     float: left;
@@ -106,9 +81,23 @@ a.nav-link {
     margin-top: 3%;
     margin-left: 5%;
 }
+.khoi4 .img{
+    overflow: hidden;
+    position: relative;
+}
 .khoi4 .img img{
-    width: 270px;
-    height: 344px;
+    width: 100%;
+    height: 100%;
+}
+.khoi4 .img .background2{
+     width: 100%;
+     height: 100%;
+     background-color: black;
+     transition: 0.4s;
+     opacity: 0;
+ }
+.khoi4 .img .background2:hover{
+    opacity: 0.5;
 }
 .khoi4 .description a{
     border: 1px solid black;
@@ -125,8 +114,12 @@ a.nav-link {
     color: white;
     text-decoration: none;
 }
-.khoi4 .img img:hover{
-
+@media only screen and (max-width: 767px)
+{
+    .service{
+        text-align: center;
+        padding-top: 3%;
+    }
 }
 .col-md-4.service{
     width: 100%;
