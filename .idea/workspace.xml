@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7618c038-8ca3-4c07-ac1e-ea4b296c4f92" name="Default Changelist" comment="BTL">
+      <change afterPath="$PROJECT_DIR$/CSS/Demo Map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/DemoEvent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo-Ajax Json 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo-Ajax Json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoBootstrapJS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoJQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoJQuery2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Jakiro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoDOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/DemoDOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m9ASiqqSn9WcqXh5bFxJjhtbyy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Building websites/t2011e_nodejs" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7618c038-8ca3-4c07-ac1e-ea4b296c4f92" name="Default Changelist" comment="" />
+      <created>1608895435544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608895435544</updated>
+      <workItem from="1608895437552" duration="8419000" />
+      <workItem from="1608905090589" duration="681000" />
+      <workItem from="1609076954989" duration="1450000" />
+      <workItem from="1609137327907" duration="3844000" />
+      <workItem from="1609147773005" duration="22000" />
+      <workItem from="1609150928760" duration="1688000" />
+      <workItem from="1609153167059" duration="11918000" />
+      <workItem from="1609728914067" duration="1478000" />
+      <workItem from="1609730455398" duration="258000" />
+      <workItem from="1609757663333" duration="11714000" />
+      <workItem from="1609930213281" duration="12302000" />
+      <workItem from="1610101694745" duration="10451000" />
+      <workItem from="1610160932501" duration="4410000" />
+      <workItem from="1610181658343" duration="823000" />
+      <workItem from="1610201534526" duration="2412000" />
+      <workItem from="1610274401328" duration="8117000" />
+      <workItem from="1610288177913" duration="1592000" />
+      <workItem from="1610360451599" duration="9692000" />
+      <workItem from="1610631403568" duration="1320000" />
+      <workItem from="1610633037954" duration="1367000" />
+      <workItem from="1610707744924" duration="12757000" />
+      <workItem from="1610848963565" duration="5559000" />
+      <workItem from="1610870672544" duration="1417000" />
+      <workItem from="1610890712821" duration="3216000" />
+      <workItem from="1610936135493" duration="3775000" />
+      <workItem from="1610957471794" duration="598000" />
+      <workItem from="1610964669603" duration="14672000" />
+      <workItem from="1611026399788" duration="606000" />
+      <workItem from="1611065003349" duration="584000" />
+      <workItem from="1611139214507" duration="12194000" />
+      <workItem from="1611292561025" duration="1926000" />
+      <workItem from="1611311075141" duration="12589000" />
+      <workItem from="1611490775002" duration="800000" />
+      <workItem from="1611570277382" duration="13637000" />
+      <workItem from="1611743701655" duration="13270000" />
+      <workItem from="1611824269586" duration="609000" />
+      <workItem from="1611830003476" duration="11547000" />
+      <workItem from="1613991958337" duration="2709000" />
+      <workItem from="1613996797977" duration="1838000" />
+      <workItem from="1614008062802" duration="614000" />
+      <workItem from="1614162363601" duration="1257000" />
+      <workItem from="1614337358044" duration="9603000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1608895698812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608895698812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2ndTest">
+      <created>1608896249193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608896249193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2ndTest">
+      <created>1608901989620</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608901989620</updated>
+    </task>
+    <task id="LOCAL-00004" summary="3rdTest">
+      <created>1608903119355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608903119355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3rdTest">
+      <created>1608903265335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608903265335</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3rdTest">
+      <created>1608903388033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608903388033</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3rdTest">
+      <created>1608903676246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608903676246</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Jakiro">
+      <created>1610282353329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610282353329</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Jakiro">
+      <created>1610979388091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610979388091</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Jakiro">
+      <created>1610979810797</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610979810797</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Jakiro">
+      <created>1611838398813</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611838398813</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BTL">
+      <created>1614344630990</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614344630990</updated>
+    </task>
+    <task id="LOCAL-00013" summary="BTL">
+      <created>1614346786163</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614346786163</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <MESSAGE value="2ndTest" />
+    <MESSAGE value="3rdTest" />
+    <MESSAGE value="Jakiro" />
+    <MESSAGE value="BTL" />
+    <option name="LAST_COMMIT_MESSAGE" value="BTL" />
+  </component>
+</project>
