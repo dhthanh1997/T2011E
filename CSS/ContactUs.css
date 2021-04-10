@@ -137,16 +137,21 @@
     content: ">";
 }
 .ContactUs-content{
-    background-image: url(https://halongcomplex.sunworld.vn/wp-content/themes/halongcomplex/dist/images/background.png);
+    background-image: url("https://halongcomplex.sunworld.vn/wp-content/themes/halongcomplex/dist/images/background.png");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-color: #f1f5f7;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 40px 0;
 }
 .ContactUs-content .left-content .khungtrinhbay .nut .send:hover{
     text-decoration: none;
+}
+label.error.fail-alert{
+    color: red;
+    line-height: 1;
+    padding: 2px 0 6px 6px;
 }
 
 /* footer */

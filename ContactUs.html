@@ -76,18 +76,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 left-content">
-                <form name="infor">
-                    <div class="khungtrinhbay form-group">
-                        <label>Full Name</label>
-                        <input type="text" class="form-control" placeholder="" id="name" name="Name">
-                        <label class="mt-2">Email</label>
-                        <input type="email" class="form-control" placeholder="" id="mail" name="Email">
-                        <label class="mt-2">Topic</label>
-                        <input type="text" class="form-control" placeholder="" id="topic" name="Topic">
-                        <label class="mt-2">Content</label>
-                        <textarea id="about" class="form-control" placeholder="" name="About" rows="7"></textarea>
-                        <button class="nut btn btn-primary mt-3" href="#" onclick="guingay(document.forms.infor);"><a class="send" style="color: white" href="#">Send</a></button>
+                <form action="" method="post" class="form" id="form-1">
+                    <div class="form-group">
+                        <label for="fullname" class="form-label">Full name <span style="color: red">*</span></label>
+                        <input id="fullname" name="fullname" type="text" placeholder="" class="form-control" required>
+                        <span class="form-message"></span>
                     </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email <span style="color: red">*</span></label>
+                        <input id="email" name="email" type="email" placeholder="" class="form-control" required>
+                        <span class="form-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Textarea">Messages here</label>
+                        <textarea class="form-control" id="Textarea" rows="9"></textarea>
+                    </div>
+                    <button class="submit btn btn-primary" type="submit">Send</button>
                 </form>
             </div>
             <div class="col-md-6 right-content">
@@ -160,66 +164,32 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script type="text/javascript">
-    var check_phone = /^\d{2,4}\d{3}\d{3}$/;
-    var check_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-    var check_username = /^[A-Za-z0-9_]{1,20}$/;
-    var check_password = /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
-    function checknull(txt){
-        if(txt.value.length==0)
-            return true;
-        else
-            return false;
-    }
-    function isInteger(txt)
-    {
-        if((!isNaN(txt.value)) && (parseInt(txt.value)==Number(txt.value)))
-            return true;
-        else
-            return false;
-    }
-    function StringMatch(txt,reg)
-    {
-        return reg.test(txt.value);
-    }
-    function guingay(f)
-    {
-        if(checknull(f.Name))
-        {
-            alert("Tên của bạn không được để trống");
-            f.Name.focus();
-            return;
-        }
-        if(!StringMatch(f.Email,check_email))
-        {
-            if(checknull(f.Email))
-            {
-                alert("Email của bạn không được để trống");
-                f.Email.focus();
-                return;
-            }
-            else
-            {
-                alert("Email không hợp lệ");
-                f.Email.value="";
-                f.Email.focus();
-                return;
-            }
-        }
-        if(checknull(f.Topic))
-        {
-            alert("Chủ đề của bạn không được để trống");
-            f.Topic.focus();
-            return;
-        }
-        if(checknull(f.About))
-        {
-            alert("Nội dung phản hồi của bạn không được để trống");
-            f.About.focus();
-            return;
-        }
-        alert("Cảm ơn bạn đã phản hồi");
-    }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#form-1").validate({
+           rules:{
+               fullname: {
+                   required: true,
+               },
+               email: {
+                   required: true,
+                   email:true
+               },
+           },
+            messages:{
+               fullname: {
+                   required: "Please enter your name",
+               },
+               email: {
+                   required: "Please enter your email",
+                   email: "The email should be in the format: abc@mail.com"
+               }
+            },
+            errorClass: "error fail-alert",
+        });
+    });
 </script>
 </body>
 </html>
