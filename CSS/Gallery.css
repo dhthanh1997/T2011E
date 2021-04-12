@@ -172,9 +172,9 @@
 }
 .Gallery-content section .product .itemBox{
     position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
 }
 .Gallery-content section .product .itemBox:hover{
     filter: brightness(80%);
