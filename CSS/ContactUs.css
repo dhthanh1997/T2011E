@@ -145,7 +145,7 @@
     background-attachment: fixed;
     padding: 40px 0;
 }
-.ContactUs-content .left-content .khungtrinhbay .nut .send:hover{
+.ContactUs-content .right-content .khungtrinhbay .nut .send:hover{
     text-decoration: none;
 }
 label.error.fail-alert{
@@ -153,7 +153,9 @@ label.error.fail-alert{
     line-height: 1;
     padding: 2px 0 6px 6px;
 }
-
+.ContactUs-content .left-content .table tbody tr td{
+   border: none;
+}
 /* footer */
 .footer{
     background-image: url(https://halongcomplex.sunworld.vn/wp-content/themes/halongcomplex/dist/images/bg-footer.png);
