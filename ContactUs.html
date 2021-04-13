@@ -165,35 +165,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $("#form-1").validate({
-           rules:{
-               fullname: {
-                   required: true,
-               },
-               email: {
-                   required: true,
-                   email:true
-               },
-               textarea: {
-                   required: true
-               }
-           },
-            messages:{
-               fullname: {
-                   required: "Please enter your name.",
-               },
-               email: {
-                   required: "Please enter your email.",
-                   email: "The email should be in the format: abc@mail.com"
-               },
-            },
-            errorClass: "error fail-alert",
-        });
-    });
-</script>
 </body>
 </html>
