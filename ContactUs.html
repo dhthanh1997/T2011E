@@ -117,8 +117,8 @@
                         <span class="form-message"></span>
                     </div>
                     <div class="form-group">
-                        <label for="Textarea">Messages here</label>
-                        <textarea class="form-control" id="Textarea" rows="9"></textarea>
+                        <label for="Textarea">Messages here <span style="color: red">*</span></label>
+                        <textarea class="form-control" id="textarea" rows="9" required></textarea>
                     </div>
                     <button class="submit btn btn-primary" type="submit">Send</button>
                 </form>
@@ -178,15 +178,18 @@
                    required: true,
                    email:true
                },
+               textarea: {
+                   required: true
+               }
            },
             messages:{
                fullname: {
-                   required: "Please enter your name",
+                   required: "Please enter your name.",
                },
                email: {
-                   required: "Please enter your email",
+                   required: "Please enter your email.",
                    email: "The email should be in the format: abc@mail.com"
-               }
+               },
             },
             errorClass: "error fail-alert",
         });
