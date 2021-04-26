@@ -203,9 +203,10 @@ header nav ul li a:hover {
     font-size: 17px;
 }
 .News-detail .bg-main-top{
-    background-image: url(https://themes.oitentaecinco.com/winner/wp-content/uploads/2015/12/nutrition-slider-bg.jpg);
+    background-image: url(https://themes.oitentaecinco.com/winner/wp-content/uploads/2015/10/contacts-slider-bg.png);
     min-height: 60vh;
     background-size: cover;
+    background-color: black;
 }
 .News-detail .bg-main-top button{
     margin: auto;

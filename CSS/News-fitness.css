@@ -194,7 +194,7 @@ header nav ul li a:hover {
     background-color: #fff;
     margin: 4px 0;
 }
-/*Nutrition-detail*/
+/*News-detail*/
 .News-header .icon-bg-banner h4
 {
     margin-top:7%;
@@ -202,9 +202,10 @@ header nav ul li a:hover {
     font-size: 17px;
 }
 .News-header .bg-main-top {
-    background-image: url(https://themes.oitentaecinco.com/winner/wp-content/uploads/2015/12/nutrition-slider-bg.jpg);
+    background-image: url(https://themes.oitentaecinco.com/winner/wp-content/uploads/2015/10/contacts-slider-bg.png);
     min-height: 60vh;
     background-size: cover;
+    background-color: black;
 }
 .News-header .bg-main-top button{
     margin: auto;
