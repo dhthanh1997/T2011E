@@ -25,12 +25,16 @@ ul {
 }
 
 header nav ul li a {
-    font-size: 1.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.4s;
     text-decoration: none !important;
 }
 
 header nav ul li a:hover {
-    color: white !important;
+    color: #d7272a !important;
 }
 
 p {
